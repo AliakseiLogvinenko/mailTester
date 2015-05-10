@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <parameter name="path" value="/"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.epam.webtest.pages.SendMailTest">
+        <methods>
+          <include name="testInit"/>
+          <include name="init"/>
+          <include name="sendingMailTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.webtest.pages.SendMailTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

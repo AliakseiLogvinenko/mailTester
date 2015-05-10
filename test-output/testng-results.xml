@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57981" started-at="2015-05-10T12:07:28Z" finished-at="2015-05-10T12:08:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="57981" started-at="2015-05-10T12:07:28Z" finished-at="2015-05-10T12:08:26Z">
+      <class name="com.epam.webtest.pages.SendMailTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.epam.webtest.pages.SendMailTest@7cf10a6f]" name="init" is-config="true" duration-ms="3494" started-at="2015-05-10T14:07:28Z" finished-at="2015-05-10T14:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testInit(java.lang.String)[pri:0, instance:com.epam.webtest.pages.SendMailTest@7cf10a6f]" name="testInit" is-config="true" duration-ms="1581" started-at="2015-05-10T14:07:32Z" finished-at="2015-05-10T14:07:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method status="PASS" signature="sendingMailTest()[pri:0, instance:com.epam.webtest.pages.SendMailTest@7cf10a6f]" name="sendingMailTest" duration-ms="52893" started-at="2015-05-10T14:07:33Z" finished-at="2015-05-10T14:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingMailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.webtest.pages.SendMailTest@7cf10a6f]" name="tearDown" is-config="true" duration-ms="342" started-at="2015-05-10T14:08:26Z" finished-at="2015-05-10T14:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.webtest.pages.SendMailTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
